@@ -5,8 +5,7 @@
 - main
 
 # Question class will need to initialize some form of random number geneator from 1 to 20
-# Adds them together
-# Outputs the result
-# Checks if the player input matches the result
+# Adds them together, stores in a variable
+# Use gets.chomp to get input from user and check if the player input matches the variable
 # Scores class gets updated based on the bolean result - should have I/O
 # the next player gets prompted with a questions
