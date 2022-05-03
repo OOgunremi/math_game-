@@ -1,9 +1,9 @@
 class Player
   def initialize(name)
       @name = name
-      puts "Player #{@name} initialized"
+      @score = 3
+      puts "#{@name} initialized with #{@score} lives"
   end
   
 end
 
-player1 = Player.new('Lekan')
