@@ -1,0 +1,12 @@
+# Classes
+- players
+- questions
+- scores
+- main
+
+# Question class will need to initialize some form of random number geneator from 1 to 20
+# Adds them together
+# Outputs the result
+# Checks if the player input matches the result
+# Scores class gets updated based on the bolean result - should have I/O
+# the next player gets prompted with a questions
