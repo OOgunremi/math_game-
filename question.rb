@@ -1,17 +1,17 @@
+
 class Question
   def initialize
     @number1 = rand(20)
     @number2 = rand(20)
+
     @sum = @number1 + @number2
- 
   end
-  def ask_question
-    puts "what does #{@number1} + #{@number2} equal?"
-    # Question.new
+
+  def question(name)
+    puts "#{name}: What does #{@number1} plus #{@number2} equal?"
   end
-  def confirm_answer
-    @sum
+
+  def answer(input)
+    @sum == input
   end
 end
-# number = Question.new
-# puts  number
