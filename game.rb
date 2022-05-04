@@ -18,7 +18,7 @@ class Game
     @player_2.new_question
     check_score
    result
-    puts '---------NEW SET---------'
+    puts '---------NEW TURN---------'
     play
   end
 
@@ -36,8 +36,9 @@ class Game
 
   def winner(player)
     puts "#{player.name} wins with the score of #{player.scores}/3"
-    puts 'Game completed. Have a nice day'
-    exit(0)
+    puts '---------GAME OVER---------'
+    puts 'God bye!'
+    exit
   end
 
 

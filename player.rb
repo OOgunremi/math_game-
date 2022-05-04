@@ -16,11 +16,13 @@ class Player
   def new_question
     new_question = Question.new
     new_question.question(name)
-    print '> '
+    
+    print ' > '
     
     @player_response = $stdin.gets.chomp
+
     if new_question.answer(@player_response.to_i)
-      puts 'Yes! You are correct.'
+      puts 'YES! You are correct.'
     else
       puts 'Seriously? No!'
       lose_score
